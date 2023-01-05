@@ -302,6 +302,10 @@
   place-items: center;
 }
 
+.grid_1-1-1-1 a:hover {
+  font-weight: 350;
+}
+
 .grid_1-1-1-1 .boks img,
 .grid_1-1-1-1 .titel,
 .boks_farve1 .titel,
@@ -398,13 +402,13 @@
 
 @media (min-width: 800px) {
   .grid_uddannelse {
-    background-color: white;
     display: grid;
+    border-block: solid #2b34d9;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin-top: 40px;
+    margin-top: 100px;
     margin-bottom: 40px;
-    padding: 60px 0px 30px 60px;
+    padding: 50px 0px 30px 0px;
   }
 
   .grid_uddannelse p {

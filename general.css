@@ -59,13 +59,22 @@ header a {
   font-weight: 400;
 }
 
+header a:hover {
+  font-weight: 400;
+}
+
 a {
-  color: #2b34d9;
+  color: black;
   font-size: 20px;
   display: block;
   text-transform: uppercase;
+  text-decoration: underline;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+}
+
+a:hover {
+  font-weight: 800;
 }
 
 /* burgermenu */
