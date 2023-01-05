@@ -364,8 +364,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin-top: 7%;
-    margin-bottom: 7%;
+    margin-top: 40px;
+    margin-bottom: 40px;
     padding: 60px 0px 30px 60px;
   }
 
@@ -391,19 +391,15 @@
 
 .boks_logo {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 10px;
   width: 60%;
+  padding-top: 20px;
 }
 .kontaktmig {
   margin: 0;
   font-size: 50px;
-  padding-bottom: 10px;
   padding-top: 0;
-}
-
-.logo {
-  width: 20%;
 }
 
 .boks_kontakt p {
