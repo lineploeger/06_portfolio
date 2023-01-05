@@ -95,7 +95,7 @@ a {
 
 /* Burgermenu */
 .burger {
-  width: 20px;
+  width: 10px;
   aspect-ratio: 1/1;
   background-image: url(../kryds.svg);
 }

@@ -367,16 +367,20 @@
 
   .boks_info {
     padding-right: 50px;
+    margin-bottom: 20px;
   }
   .ommig {
     padding-left: 0%;
   }
 }
 
+.grid_uddannelse h2 {
+  font-size: 50px;
+}
+
 @media (max-width: 800px) {
   .grid_uddannelse h2 {
     grid-column: span 2;
-    font-size: 50px;
     padding-top: 40px;
     padding-bottom: 20px;
   }
