@@ -52,6 +52,15 @@
   .rotate {
     font-size: 0px;
   }
+
+  .boks_projekt img,
+  .boks_ommig img {
+    margin: auto;
+  }
+  .figcap,
+  .portfolio {
+    padding-left: 60px;
+  }
 }
 
 .boks_projekt img,
@@ -95,6 +104,10 @@
   place-items: center;
   padding-top: 6%;
   width: 100%;
+}
+/*portfolio*/
+.boks_portfolio {
+  order: 1;
 }
 
 /*grundlæggende ux*/
@@ -325,15 +338,13 @@
   text-align: center;
 }
 .boks_farve1 {
-  background-color: #c3b08f;
-  transition: 0.3s;
-  opacity: 40%;
+  background-color: rgba(200, 176, 142, 0.4);
+  transition: 0.4s;
 }
 
 .boks_farve2 {
-  background-color: #d6ade1;
+  background-color: rgba(223, 171, 228, 0.5);
   transition: 0.3s;
-  opacity: 40%;
 }
 
 .grid_1-1-1-1 .titel {
@@ -350,12 +361,15 @@
   opacity: 80%;
 }
 
-.boks_farve1:hover,
-.boks_farve2:hover {
+.boks_farve1:hover {
   transform: scale(1.1);
-  opacity: 80%;
+  background-color: rgba(200, 176, 142, 0.8);
 }
 
+.boks_farve2:hover {
+  transform: scale(1.1);
+  background-color: rgba(223, 171, 228, 0.8);
+}
 /* om mig */
 
 .ommig {
