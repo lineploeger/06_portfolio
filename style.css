@@ -115,6 +115,10 @@
 
 /*grundlæggende ux*/
 
+.boks1 p {
+  margin-top: 10px;
+}
+
 .ux {
   color: #f22222;
   margin-block: 0;
@@ -122,6 +126,8 @@
 .ux2 {
   color: #f22222;
   font-size: 30px;
+  margin-bottom: 0;
+  margin-top: 20px;
 }
 .boks1 img {
   width: 80%;
@@ -139,6 +145,12 @@
 /*pilotsite*/
 .pilot {
   color: #f23d6d;
+}
+
+@media (max-width: 800px) {
+  .grid_1-1 video {
+    padding-block: 30px;
+  }
 }
 
 /* animaition */
@@ -423,15 +435,22 @@ h4 {
     margin-bottom: 40px;
     padding: 50px 0px 30px 0px;
   }
+  .grid_uddannelse h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 70px;
+  }
 
   .grid_uddannelse p {
-    padding-right: 30%;
+    padding-right: 130px;
+    margin-left: 70px;
+  }
+
+  .grid_uddannelse h3 {
+    margin-left: 70px;
   }
 }
-.grid_uddannelse h2 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
+
 .grid_uddannelse h3 {
   text-transform: uppercase;
   font-size: 20px;
@@ -444,6 +463,21 @@ h4 {
 
 /* forms */
 
+@media (min-width: 800px) {
+  .boks_kontakt {
+    margin-left: 70px;
+  }
+  .kontaktmig {
+    margin: 0;
+    padding-top: 0;
+    margin-left: 70px;
+    font-size: 50px;
+  }
+  form {
+    margin-left: 70px;
+  }
+}
+
 .boks_logo {
   display: flex;
   justify-content: space-between;
@@ -451,14 +485,9 @@ h4 {
   width: 60%;
   padding-top: 20px;
 }
-.kontaktmig {
-  margin: 0;
-  font-size: 50px;
-  padding-top: 0;
-}
 
 .boks_kontakt p {
-  padding-right: 200px;
+  padding-right: 95px;
   margin-top: 0;
   margin-bottom: 30px;
 }
