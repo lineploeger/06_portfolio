@@ -316,28 +316,24 @@
   place-items: center;
 }
 
-.grid_1-1-1-1 a:hover {
-  font-weight: 350;
-}
-
 .grid_1-1-1-1 .boks img,
-.grid_1-1-1-1 .titel,
-.boks_farve1 .titel,
-.boks_farve2 .titel {
+.grid_1-1-1-1 h4,
+.boks_farve1 h4,
+.boks_farve2 h4 {
   grid-area: 1/1;
   transition: 0.3s;
 }
 
-.titel {
+h4 {
   font-size: 50px;
   color: #2b34d9;
   font-family: "Poppins", sans-serif;
   font-weight: 350;
   text-transform: uppercase;
   place-items: center;
-  text-decoration: none;
   text-align: center;
 }
+
 .boks_farve1 {
   background-color: rgba(200, 176, 142, 0.4);
   transition: 0.4s;
@@ -348,7 +344,7 @@
   transition: 0.3s;
 }
 
-.grid_1-1-1-1 .titel {
+.grid_1-1-1-1 h4 {
   z-index: 3;
   opacity: 100%;
 }
