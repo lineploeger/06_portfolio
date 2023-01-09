@@ -110,10 +110,10 @@ a:hover {
 .burger {
   width: 20px;
   aspect-ratio: 1/1;
-  background-image: url(../kryds.svg);
+  background-image: url(kryds.svg);
 }
 .kryds .burger {
-  background-image: url(../menu.svg);
+  background-image: url(menu.svg);
 }
 .main-menu.kryds ul {
   display: none;
