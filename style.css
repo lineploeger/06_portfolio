@@ -57,9 +57,11 @@
   .boks_ommig img {
     margin: auto;
   }
-  .figcap,
+  .figcap {
+    padding-left: 40px;
+  }
   .portfolio {
-    padding-left: 60px;
+    text-align: center;
   }
 }
 
