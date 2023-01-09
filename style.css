@@ -85,7 +85,8 @@
   transition: transform 0.3s;
 }
 
-.figcap:hover {
+.boks_projekt:hover,
+.boks_ommig:hover {
   transform: scale(1.1);
 }
 
@@ -121,7 +122,7 @@
   font-size: 30px;
 }
 .boks1 img {
-  width: 100%;
+  width: 80%;
 }
 
 .boks2 p {
